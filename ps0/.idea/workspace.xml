@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62864d99-ffd8-4ab7-97e0-d63559fa644b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/turtle/TurtleSoup.java" afterPath="$PROJECT_DIR$/src/turtle/TurtleSoup.java" />
-    </list>
+    <list default="true" id="62864d99-ffd8-4ab7-97e0-d63559fa644b" name="Default" comment="" />
     <ignored path="ps0.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -39,9 +37,12 @@
       <file leaf-file-name="TurtleSoup.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/turtle/TurtleSoup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="153">
+              <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+              <folding>
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1098#1099#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -706,7 +707,7 @@
       <option name="presentableId" value="Default" />
       <updated>1503909040885</updated>
       <workItem from="1503909047871" duration="1636000" />
-      <workItem from="1503919021894" duration="329000" />
+      <workItem from="1503919021894" duration="2252000" />
     </task>
     <servers />
   </component>
@@ -722,7 +723,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1965000" />
+    <option name="totallyTimeSpent" value="3888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -835,9 +836,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/turtle/TurtleSoup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+          <folding>
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

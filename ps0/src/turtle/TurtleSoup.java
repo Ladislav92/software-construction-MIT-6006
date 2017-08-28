@@ -34,7 +34,7 @@ public class TurtleSoup {
      * @return angle in degrees, where 0 <= angle < 360
      */
     public static double calculateRegularPolygonAngle(int sides) {
-        throw new RuntimeException("implement me!");
+                return (sides - 2)* (180/sides);
     }
 
     /**
@@ -48,9 +48,31 @@ public class TurtleSoup {
      * @return the integer number of sides
      */
     public static int calculatePolygonSidesFromAngle(double angle) {
-        throw new RuntimeException("implement me!");
+        // ext 2 * angle  = 360 / n = > n = 180 / angle
+
+        final int EXTERIOR_ANGLES_SUM = 360;
+
+        double exteriorAngle = getComplementAngle(angle);
+
+        return (int) Math.round(EXTERIOR_ANGLES_SUM / exteriorAngle);
     }
 
+    /**
+     * Calculates full complement of an angle.
+     *
+     * @param angle non negative double value between 0 and 360
+     * @return
+     */
+    private static double getComplementAngle(double angle) {
+
+        final int FULL_CIRCLE = 360;
+
+        if (angle < 0 || angle > FULL_CIRCLE) {
+            throw new IllegalArgumentException("Angle value has to be between 0 and 360");
+        }
+
+        return FULL_CIRCLE - angle;
+    }
     /**
      * Given the number of sides, draw a regular polygon.
      * 
@@ -61,7 +83,12 @@ public class TurtleSoup {
      * @param sideLength length of each side
      */
     public static void drawRegularPolygon(Turtle turtle, int sides, int sideLength) {
-        throw new RuntimeException("implement me!");
+
+        double angle = calculateRegularPolygonAngle(sides);
+        for(int i = 0; i < sides; i++) {
+            turtle.forward(sideLength);
+            turtle.turn(angle);
+        }
     }
 
     /**
@@ -85,6 +112,10 @@ public class TurtleSoup {
      */
     public static double calculateHeadingToPoint(double currentHeading, int currentX, int currentY,
                                                  int targetX, int targetY) {
+
+
+        
+
         throw new RuntimeException("implement me!");
     }
 
