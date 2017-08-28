@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62864d99-ffd8-4ab7-97e0-d63559fa644b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/turtle/TurtleSoup.java" afterPath="$PROJECT_DIR$/src/turtle/TurtleSoup.java" />
-    </list>
+    <list default="true" id="62864d99-ffd8-4ab7-97e0-d63559fa644b" name="Default" comment="" />
     <ignored path="ps0.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -39,23 +37,11 @@
       <file leaf-file-name="TurtleSoup.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/turtle/TurtleSoup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="206">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TurtleSoupTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/turtle/TurtleSoupTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1103#1104#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -223,7 +209,7 @@
       <recent name="C:\Users\Ladislav\Desktop\software-construction-MIT\ps0\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TurtleSoupTest.calculatePolygonSidesFromAngleTest">
+  <component name="RunManager" selected="JUnit.TurtleSoupTest.calculateRegularPolygonAngleTest">
     <configuration default="false" name="RulesOf6005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -242,32 +228,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ps0" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RulesOf6005Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="rules.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ps0" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="PACKAGE_NAME" value="rules" />
-      <option name="MAIN_CLASS_NAME" value="rules.RulesOf6005Test" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="TurtleSoup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -329,6 +289,32 @@
       <option name="PACKAGE_NAME" value="turtle" />
       <option name="MAIN_CLASS_NAME" value="turtle.TurtleSoupTest" />
       <option name="METHOD_NAME" value="calculatePolygonSidesFromAngleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TurtleSoupTest.calculateRegularPolygonAngleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="turtle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ps0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="turtle" />
+      <option name="MAIN_CLASS_NAME" value="turtle.TurtleSoupTest" />
+      <option name="METHOD_NAME" value="calculateRegularPolygonAngleTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -758,18 +744,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.RulesOf6005" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RulesOf6005Test" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TurtleSoup" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TurtleSoupTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TurtleSoupTest.calculatePolygonSidesFromAngleTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TurtleSoup" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TurtleSoupTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TurtleSoupTest.calculatePolygonSidesFromAngleTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TurtleSoupTest.calculateRegularPolygonAngleTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TurtleSoupTest.calculatePolygonSidesFromAngleTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TurtleSoupTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TurtleSoup" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RulesOf6005" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RulesOf6005Test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TurtleSoupTest.calculateRegularPolygonAngleTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TurtleSoupTest.calculatePolygonSidesFromAngleTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TurtleSoupTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TurtleSoup" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RulesOf6005" />
       </list>
     </recent_temporary>
   </component>
@@ -784,23 +770,11 @@
       <option name="presentableId" value="Default" />
       <updated>1503909040885</updated>
       <workItem from="1503909047871" duration="1636000" />
-      <workItem from="1503919021894" duration="3737000" />
+      <workItem from="1503919021894" duration="4091000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TurtleSoupTest - 2017.08.28 at 13h 59m 47s.xml">
-      <configuration name="TurtleSoupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TurtleSoupTest - 2017.08.28 at 14h 01m 25s.xml">
-      <configuration name="TurtleSoupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TurtleSoupTest - 2017.08.28 at 14h 05m 08s.xml">
-      <configuration name="TurtleSoupTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TurtleSoupTest - 2017.08.28 at 14h 06m 38s.xml">
-      <configuration name="TurtleSoupTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TurtleSoupTest - 2017.08.28 at 14h 11m 36s.xml">
       <configuration name="TurtleSoupTest" configurationId="JUnit" />
     </history-entry>
@@ -819,9 +793,21 @@
     <history-entry file="TurtleSoupTest_calculatePolygonSidesFromAngleTest - 2017.08.28 at 14h 18m 53s.xml">
       <configuration name="TurtleSoupTest.calculatePolygonSidesFromAngleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TurtleSoupTest_calculateRegularPolygonAngleTest - 2017.08.28 at 14h 22m 54s.xml">
+      <configuration name="TurtleSoupTest.calculateRegularPolygonAngleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TurtleSoupTest_calculateRegularPolygonAngleTest - 2017.08.28 at 14h 24m 31s.xml">
+      <configuration name="TurtleSoupTest.calculateRegularPolygonAngleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TurtleSoupTest_calculateRegularPolygonAngleTest - 2017.08.28 at 14h 25m 13s.xml">
+      <configuration name="TurtleSoupTest.calculateRegularPolygonAngleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TurtleSoupTest_calculateRegularPolygonAngleTest - 2017.08.28 at 14h 27m 22s.xml">
+      <configuration name="TurtleSoupTest.calculateRegularPolygonAngleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5373000" />
+    <option name="totallyTimeSpent" value="5727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -834,7 +820,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6497545" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6497545" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -853,6 +839,33 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6497545" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2206107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -902,16 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rules/RulesOf6005.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#2722#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module_ps0.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -946,9 +949,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/rules/RulesOf6005.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#2722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/turtle/TurtleSoupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="257">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -958,11 +971,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/turtle/TurtleSoup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="206">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
           </folding>
         </state>
       </provider>
