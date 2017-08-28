@@ -4,7 +4,6 @@
 package turtle;
 
 import java.util.List;
-import java.util.ArrayList;
 
 public class TurtleSoup {
 
@@ -15,7 +14,14 @@ public class TurtleSoup {
      * @param sideLength length of each side
      */
     public static void drawSquare(Turtle turtle, int sideLength) {
-        throw new RuntimeException("implement me!");
+
+        final int SQUARE_ANGLE = 90;
+        final int NUMBER_OF_SIDES = 4;
+
+        for(int i = 0; i < NUMBER_OF_SIDES; i++) {
+            turtle.forward(sideLength);
+            turtle.turn(SQUARE_ANGLE);
+        }
     }
 
     /**

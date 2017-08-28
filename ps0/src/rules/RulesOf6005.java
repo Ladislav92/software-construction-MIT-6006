@@ -31,7 +31,7 @@ public class RulesOf6005 {
                                                  boolean citingYourSource, boolean implementationRequired) {
 
         return writtenByYourself || implementationRequired ||
-                ((availableToOthers ||) && citingYourSource);
+                ((availableToOthers || writtenAsCourseWork) && citingYourSource);
 
     }
 
