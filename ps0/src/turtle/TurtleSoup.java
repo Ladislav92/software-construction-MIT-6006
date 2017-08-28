@@ -50,9 +50,9 @@ public class TurtleSoup {
     public static int calculatePolygonSidesFromAngle(double angle) {
         // ext 2 * angle  = 360 / n = > n = 180 / angle
 
-        final int EXTERIOR_ANGLES_SUM = 360;
+        final double EXTERIOR_ANGLES_SUM = 360.0;
 
-        double exteriorAngle = getComplementAngle(angle);
+        double exteriorAngle = getSuplementAngle(angle);
 
         return (int) Math.round(EXTERIOR_ANGLES_SUM / exteriorAngle);
     }
@@ -63,15 +63,15 @@ public class TurtleSoup {
      * @param angle non negative double value between 0 and 360
      * @return
      */
-    private static double getComplementAngle(double angle) {
+    private static double getSuplementAngle(double angle) {
 
-        final int FULL_CIRCLE = 360;
+        final int FULL_SUPPLEMENT = 180;
 
-        if (angle < 0 || angle > FULL_CIRCLE) {
+        if (angle < 0 || angle > FULL_SUPPLEMENT) {
             throw new IllegalArgumentException("Angle value has to be between 0 and 360");
         }
 
-        return FULL_CIRCLE - angle;
+        return FULL_SUPPLEMENT - angle;
     }
     /**
      * Given the number of sides, draw a regular polygon.
@@ -114,7 +114,7 @@ public class TurtleSoup {
                                                  int targetX, int targetY) {
 
 
-        
+
 
         throw new RuntimeException("implement me!");
     }
